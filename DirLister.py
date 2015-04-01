@@ -3,7 +3,7 @@ import os
 with open('dirs.txt') as f:
     dirs = list(f)
 
-out = open('out.txt', 'w')
+out = open('Program list.txt', 'w')
 
 for directory in dirs:
     directory = directory.replace('\n', '')   # Remove newlines which aren't actually in the paths.
